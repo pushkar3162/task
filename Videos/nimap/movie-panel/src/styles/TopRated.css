@@ -1,0 +1,35 @@
+
+.page {
+  padding: 2rem;
+  background-color: #141414; 
+  color: #fff;
+  min-height: 100vh;
+}
+
+
+.page h2 {
+  font-size: 2rem;
+  margin: 20px auto 1.5rem auto; 
+  font-weight: 700;
+  text-align: center;         
+  color: #e5e5e5;
+  border-bottom: 2px solid #e50914;
+  display: block;             
+  width: fit-content;         
+  padding-bottom: 0.3rem;
+}
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+
+.page .grid {
+  max-width: 2000px;
+  margin: 0 auto;
+}
